@@ -1,0 +1,124 @@
+body{
+    background:  linear-gradient(120deg, #020357,#001c3b,#146a82);
+    background-repeat:no-repeat;
+    color:white;
+    align-items: center;
+    height: 1000px;
+    margin-left: 100px;
+    
+}
+/* alterar estilo do cabeçalho*/
+
+img{
+    width: 100px;
+    display: inline-block;
+}
+   
+
+h1{
+    margin-left: 500px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* alterar estilo da section*/
+.sectionform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* alterar estilo das divs*/
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    
+    
+}
+label{
+    color: white;
+   
+}
+
+/* alterar estilo do input; option e texto e a barra de escolha*/
+input, option,textarea,select{
+    outline: unset;
+    padding: 5px;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+.btncad{
+    background-color: rgb(228, 27, 27);
+    color: white;
+    border-radius: 30px;
+    justify-content: center;
+    border: 1px;
+
+}
+
+.sectionform{
+    padding-top: 30px;
+}
+/* RODAPE*/
+  
+  .roda{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      color: #fff;;
+      text-align: center;
+      font-size: 15px;
+      background:linear-gradient(120deg, #146a82, #001c3b, #020357);
+      
+      width: 300px;
+      height: 200px;
+    }
+      .roda img{
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+        align-items: center;
+  
+      }
+      
+      .roda table{
+        text-align: center;
+        align-items: center;
+        width: 300px;
+        height: 250px;
+
+        
+      }  
+      .div1{
+         
+          width: 200px;
+          height: 200px;
+          margin-right:1300px;
+
+      }
+      .div2{
+        
+        width: 200px;
+        height: 200px;
+        margin-left: -18cm;
+        
+      
+    }
+    .div2 img{
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        margin-top: -30px;
+
+    }
+    .div3{
+       
+        width: 200px;
+        height: 200px;
+       margin-right: 1000px;
+    }

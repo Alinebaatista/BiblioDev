@@ -1,0 +1,63 @@
+input{
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-bottom:1px solid white;
+    text-align:center;
+    background:transparent;
+    padding:10px 20px;
+    margin:10px 20px;
+    color:white;
+    display:inline-block; 
+    font-size:30px;
+    
+  }
+  
+  body{
+   /* background: linear-gradient(#062647, #043161); */
+    background: linear-gradient(120deg , #020357, #001c3b, #146a82);
+    background-repeat:no-repeat;
+    color:white;
+    align-items: center;
+    height: 1065px;
+    margin-left: 100px;
+  }
+  .form{
+    text-align:center;
+    align-items: center;
+    
+  }
+  button{
+    background:#ff7700;
+    border:0px;
+    border-radius:10px;
+    color:white;
+    width:30%;
+    height:30px;
+    margin:15px 0px;  
+    font-size:25px;
+    
+  }
+  h1{
+  font-family: 'MuseoModerno', cursive;
+    text-align:center;
+    font-size:60px;
+  }
+  .piscar {
+      animation-duration: 7s;
+      animation-name: piscar;
+      animation-iteration-count:infinite;
+      
+    }
+    
+    @keyframes piscar {
+      from {
+          color:white;
+      } 
+    
+      to {
+          color:blue;
+      }
+      
+    }
+   
